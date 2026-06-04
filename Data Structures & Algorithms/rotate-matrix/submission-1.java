@@ -19,7 +19,7 @@ class Solution {
             int startCol = 0;
             int endCol = n-1;
 
-            while(startCol <= endCol){
+            while(startCol < endCol){
                 // swap matrix[row][startCol] = matrix[row][endCol]
                 int temp = matrix[row][startCol];
                 matrix[row][startCol] = matrix[row][endCol];
